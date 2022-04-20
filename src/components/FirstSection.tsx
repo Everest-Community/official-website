@@ -18,7 +18,10 @@ export default function FirstSection() {
             Africa’s No.1 Blockchain-Powered Mobility-As-A-Service Platform.
           </p>
           <div className="flex lg:flex-row flex-col">
-            <button className="rounded-xl bg-0b lg:w-36 text-white lg:px-0 px-5 text-sm h-12">
+            <button
+              onClick={() => window.open("https://icomama.com/EVR")}
+              className="rounded-xl bg-0b lg:w-36 text-white lg:px-0 px-5 text-sm h-12"
+            >
               Buy $EVR
             </button>
             <a

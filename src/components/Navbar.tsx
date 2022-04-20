@@ -182,6 +182,7 @@ export default function Navbar (props: any) {
         {/* // </Link> */}
       </div>
       <button
+        onClick={() => window.open("https://icomama.com/EVR")}
         style={
           localStorage.getItem("color") + "" === "dark"
             ? { backgroundColor: "#FFF", color: "#222222" }
