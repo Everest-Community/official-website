@@ -1,4 +1,5 @@
-import React from 'react'
+import { Input } from '@chakra-ui/react'
+import React from 'react' 
 
 export default function AboutSection() {
     return (

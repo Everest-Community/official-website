@@ -11,10 +11,11 @@ import SixthSection from '../components/SixthSection'
 import SeventhSection from '../components/SeventhSection'
 import AboutSection from '../components/AboutSection'
 import Footer from '../components/Footer'
+import SendMessage from '../components/SendMessage'
 
 export default function HomeScreen() {
   return (
-    <div className=' w-screen lg:w-full ov h-full pt-14' >
+    <div className=' w-screen lg:w-full h-full pt-14' >
         <div className='w-full bg-firstcolor' >  
           <FirstSection />
         </div> 
@@ -40,6 +41,9 @@ export default function HomeScreen() {
         </div>
         <div style={{backgroundColor: '#0B85FD'}} className='w-full ' > 
           <AboutSection />
+        </div>
+        <div className='w-full ' > 
+          <SendMessage />
         </div>
         <div className='w-full ' > 
           <Footer />
