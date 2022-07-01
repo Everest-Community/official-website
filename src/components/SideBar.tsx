@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Menu(props: any) {
  
-    const Array = ['Home', 'Rider', 'Driver', 'FAQ', 'Subscription', 'Blog', 'White paper']  
+    const Array = ['Home', 'Rider', 'Driver', 'FAQ', 'Subscription', 'Blog', 'Blue paper']  
     const navigate = useNavigate(); 
     const [tab, setTab] = React.useState(localStorage.getItem('tab')+'') 
 
