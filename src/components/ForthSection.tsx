@@ -28,13 +28,13 @@ export default function ForthSection() {
                         <div className='w-auto mt-8 lg:hidden' > 
                             <p style={{color: '#00A0FF'}} className='font-CircularStd-Medium text-xl' >Q2 <span style={{color: '#727272'}}>2022</span></p>
                             <div style={{backgroundColor: 'rgba(0, 160, 255, 0.08)'}} className='py-4 rounded-md text-sm px-8 font-CircularStd-Medium' >
-                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >Full MVP Product Launch (Port Harcourt)</p>
+                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >MVP Development & Partnerships</p>
                             </div>
                         </div>
                         <div className='w-auto mt-8' > 
                             <p style={{color: '#00A0FF'}} className='font-CircularStd-Medium text-xl' >Q3 <span style={{color: '#727272'}}>2022</span></p>
                             <div style={{backgroundColor: 'rgba(0, 160, 255, 0.08)'}} className='py-4 rounded-md text-sm px-8 font-CircularStd-Medium' >
-                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >- Intercity Rides, Route Rides Feature Launch, Abuja Release</p>
+                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >MVP Launch, City 1 - Port Harcourt, Mobile Implementation, Exchange Listing, Discounted fares, zero, commission, payment, via cryptocurrency and, fiat, Move2Earn, favourite, driver, biometric unlock, features launch, 5,000 active users, 2,000 drivers onboarded</p>
                             </div>
                         </div>
                     </div>
@@ -49,13 +49,13 @@ export default function ForthSection() {
                         <div className='w-auto lg:flex hidden flex-col ' > 
                             <p style={{color: '#00A0FF'}} className='font-CircularStd-Medium text-xl' >Q2 <span style={{color: '#727272'}}>2022</span></p>
                             <div style={{backgroundColor: 'rgba(0, 160, 255, 0.08)'}} className='py-4 rounded-md text-sm px-8 font-CircularStd-Medium' >
-                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >Full MVP Product Launch (Port Harcourt)</p>
+                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >MVP Development & Partnerships</p>
                             </div>
                         </div>
-                        <div className='w-auto mt-8' > 
+                        <div className='w-auto mt-8 lg:mt-20' > 
                             <p style={{color: '#00A0FF'}} className='font-CircularStd-Medium text-xl' >Q4 <span style={{color: '#727272'}}>2022</span></p>
                             <div style={{backgroundColor: 'rgba(0, 160, 255, 0.08)'}} className='py-4 rounded-md text-sm px-8 font-CircularStd-Medium' >
-                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >Lagos and Ibadan Release</p>
+                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >City 2 - Abuja, City 3 - Warri/Asaba, City 4 - Uyo, Intercity Rides Route, Rides feature launch, 20,000+ active users, 5,000+ drivers onboarded</p>
                             </div>
                         </div>
                     </div>
@@ -68,19 +68,19 @@ export default function ForthSection() {
                         <div className='w-auto' > 
                             <p style={{color: '#0B85FD'}} className='font-CircularStd-Medium text-xl' >Q1 <span style={{color: '#727272'}}>2023</span></p>
                             <div style={{backgroundColor: 'rgba(0, 160, 255, 0.08)'}} className='py-4 rounded-md text-sm px-8 font-CircularStd-Medium' >
-                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >On-Demand Logistics Feature Launch</p>
+                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >City 4 - Enugu, City 5 - Ibadan, City 6 - Lagos, 100,000+ active, users, 20,000+ drivers onboarded</p>
                             </div>
                         </div>
                         <div className='w-auto mt-8 lg:hidden' > 
                             <p style={{color: '#0B85FD'}} className='font-CircularStd-Medium text-xl' >Q2 <span style={{color: '#727272'}}>2023</span></p>
                             <div style={{backgroundColor: 'rgba(0, 160, 255, 0.08)'}} className='py-4 rounded-md text-sm px-8 font-CircularStd-Medium' >
-                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >Uyo, Warri Release, Geomining Feature Launch</p>
+                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >On-Demand Logistics Feature, Launch 500,000+ active users, 60,000+ drivers onboarded</p>
                             </div>
                         </div> 
                         <div className='w-auto mt-8' > 
                             <p style={{color: '#0B85FD'}} className='font-CircularStd-Medium text-xl' >Q3 <span style={{color: '#727272'}}>2023</span></p>
                             <div style={{backgroundColor: 'rgba(0, 160, 255, 0.08)'}} className='py-4 rounded-md text-sm px-8 font-CircularStd-Medium' >
-                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >Fleet Management Product Launch</p>
+                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >Fleet Management Product Launch, Global Expansion</p>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ export default function ForthSection() {
                         <div className='w-auto lg:flex flex-col hidden' > 
                             <p style={{color: '#0B85FD'}} className='font-CircularStd-Medium text-xl' >Q2 <span style={{color: '#727272'}}>2023</span></p>
                             <div style={{backgroundColor: 'rgba(0, 160, 255, 0.08)'}} className='py-4 rounded-md text-sm px-8 font-CircularStd-Medium' >
-                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >Uyo, Warri Release, Geomining Feature Launch</p>
+                                <p style={{color: '#0B85FD'}}  className='lg:w-72' >On-Demand Logistics Feature, Launch 500,000+ active users, 60,000+ drivers onboarded</p>
                             </div>
                         </div> 
                     </div>

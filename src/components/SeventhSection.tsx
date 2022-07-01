@@ -11,7 +11,7 @@ export default function SeventhSection() {
         <div className='w-full px-10 py-20 flex flex-col lg:flex-row justify-center items-center' >
             <div className='flex lg:flex-row flex-col items-center' >
                 <div className=' lg:w-auto w-full flex items-center' >
-                    <div className='flex lg:hidden lg:w-auto p-4 lg:p-0 lg:hidden items-center lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6 mr-4 lg:mr-0' >
+                    <div className='flex lg:w-auto p-4 lg:p-0 lg:hidden items-center lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6 mr-4 lg:mr-0' >
                         <img src={Pay} alt='Pay' /> 
                     </div> 
                     <div className='lg:flex hidden lg:w-auto p-4 lg:p-0 items-center lg:border-0 border border-[#171717]  lg:mx-4 my-2 lg:my-6 ml-4 lg:ml-0' >
