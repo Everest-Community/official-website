@@ -162,10 +162,9 @@ export default function Navbar (props: any) {
         {/* </Link> */}
         {/* // <Link to='/rider'  > */}
         <a
-          href="/whitepaper.pdf"
+          href="https://everestxhq.medium.com"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => ClickHandler("rider")}
           style={
             localStorage.getItem("color") + "" === "dark"
               ? { color: "#FFFFFF" }
@@ -177,11 +176,29 @@ export default function Navbar (props: any) {
               : "font-CircularStd-Regular cursor-pointer mx-6 pb-2 "
           }
         >
-          White paper
+          Blog
+        </a>
+        <a
+          href="/whitepaper.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={
+            localStorage.getItem("color") + "" === "dark"
+              ? { color: "#FFFFFF" }
+              : { color: "#727272" }
+          }
+          className={
+            localStorage.getItem("tab") + "" === ""
+              ? "font-CircularStd-Regular border-b border-white cursor-pointer mx-6 pb-2 "
+              : "font-CircularStd-Regular cursor-pointer mx-6 pb-2 "
+          }
+        >
+          Blue paper
         </a>
         {/* // </Link> */}
       </div>
       <button
+        onClick={() => window.open("https://icomama.com/EVR")}
         style={
           localStorage.getItem("color") + "" === "dark"
             ? { backgroundColor: "#FFF", color: "#222222" }

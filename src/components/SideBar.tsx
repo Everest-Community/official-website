@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Menu(props: any) {
  
-    const Array = ['Home', 'Rider', 'Driver', 'FAQ', 'Subscription', 'Blue paper']  
+    const Array = ['Home', 'Rider', 'Driver', 'FAQ', 'Subscription', 'Blog', 'Blue paper']  
     const navigate = useNavigate(); 
     const [tab, setTab] = React.useState(localStorage.getItem('tab')+'') 
 
@@ -48,6 +48,10 @@ export default function Menu(props: any) {
       window.open(`/whitepaper.pdf`, "_blank");
     }
 
+    const blogClickHandler = () => {
+      window.open(`https://everestxhq.medium.com`, "_blank");
+    }
+
     return (
         <div className='w-full h-screen pt-8 flex flex-col bg-[#F4F4F4] items-center overflow-y-auto' > 
             <div className='w-full flex pt-4 pb-8' >
@@ -75,6 +79,33 @@ export default function Menu(props: any) {
                         <div key={index} className="w-full px-3">
                           <div
                             onClick={() => WhitepaperClickHandler()}
+                            style={
+                              localStorage.getItem("tab") + "" === ""
+                                ? { backgroundColor: "#1084FA" }
+                                : { color: "#222222" }
+                            }
+                            className="w-full cursor-pointer py-4 px-6 rounded-md"
+                          >
+                            <div className="w-full h-full flex flex-row items-center ">
+                              <p
+                                style={
+                                  localStorage.getItem("tab") + "" === ""
+                                    ? { color: "#FFF" }
+                                    : { color: "#222222" }
+                                }
+                                className=" font-CircularStd-Medium lg:text-sm"
+                              >
+                                {item}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    }  else if (item === "Blog") {
+                      return (
+                        <div key={index} className="w-full px-3">
+                          <div
+                            onClick={() => blogClickHandler()}
                             style={
                               localStorage.getItem("tab") + "" === ""
                                 ? { backgroundColor: "#1084FA" }
