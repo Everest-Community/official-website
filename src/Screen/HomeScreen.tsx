@@ -25,7 +25,7 @@ export default function HomeScreen() {
         <div className='w-full' >  
           <ThirdSection />
         </div>
-        <img src={Graph}  alt='graph' className='lg:flex hidden' />
+        <img src={Graph}  alt='graph' className='lg:flex w-full object-cover hidden' />
         <img src={SmallGraph}  alt='smallgraph' className='lg:hidden' />
         <div className='w-full' > 
           <ForthSection />

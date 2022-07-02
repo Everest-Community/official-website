@@ -5,7 +5,7 @@ export default function ForthSection() {
     const Year =(item: any)=> {
         return(
             <div className=' lg:mx-auto lg:w-28 lg:h-28 lg:border lg:border-[#0B85FD] rounded-full lg:flex items-center justify-center' >
-                <div className='lg:w-16 lg:h-16 lg:bg-[#0B85FD] lg:text-white rounded-full text-[#00A0FF] text-2xl lg:flex items-center justify-center lg:text-base lg:text-white font-CircularStd-Medium' >
+                <div className='lg:w-16 lg:h-16 lg:bg-[#0B85FD] rounded-full text-[#00A0FF] text-2xl lg:flex items-center justify-center lg:text-base lg:text-white font-CircularStd-Medium' >
                     {item}
                 </div>
             </div>
@@ -103,4 +103,4 @@ export default function ForthSection() {
             </div>
         </div>
     )
-}
+} 
