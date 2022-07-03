@@ -60,11 +60,7 @@ export default function SeventhSection() {
                         <div className='flex w-full justify-center lg:w-auto p-4 lg:p-0 items-center lg:border-0 border border-[#171717]  lg:mx-4 my-2 lg:my-6' >
                             <img src={ILlogo}  className='lg:w-36' alt='ILlogo' /> 
                         </div>
-                    </div>
-                    {/* <div className='flex lg:hidden lg:w-auto w-full p-4 lg:p-0  items-center lg:border-0 border border-[#171717]  lg:mx-4 my-2 lg:my-6' >
-                        <img src={sibon} alt='Algo' className='ml-auto lg:ml-0' />
-                            <p className='font-CircularStd-Regular mr-auto lg:mr-0 text-white ml-2 text-xl' >Algorand</p>
-                        </div> */}
+                    </div> 
                     <div className='flex items-center lg:w-auto w-full p-4 lg:p-0 lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6' >
                         <img src={sibon} alt='Market' className='mx-auto w-36 lg:mx-0' /> 
                     </div>
@@ -72,10 +68,7 @@ export default function SeventhSection() {
                 <div className='w-full lg:w-auto flex lg:flex-row flex-col items-center  ' >
                     <div className='flex items-center lg:w-auto lg:py-1 py-4  w-full p-1 lg:p-0 lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6' >
                         <img src={Thresh0ldLogo} alt='Telegraph' className='mx-auto lg:w-36 lg:mx-0' /> 
-                    </div>
-                    {/* <div className='lg:flex hidden items-center  lg:mx-4 my-2 lg:my-6' >
-                        <img src={Pay} alt='Pay' /> 
-                    </div>   */}
+                    </div> 
                 </div>
             </div>
         </div>

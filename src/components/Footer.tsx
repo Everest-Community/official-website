@@ -64,7 +64,7 @@ export default function Footer() {
               style={{ color: "#727272" }}
               className="font-CircularStd-Regular my-2 cursor-pointer"
             >
-              White paper
+              Blue paper
             </a>
             <p
               style={{ color: "#727272" }}
