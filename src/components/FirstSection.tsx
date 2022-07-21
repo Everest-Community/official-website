@@ -19,7 +19,6 @@ export default function FirstSection() {
           </p>
           <div className="flex lg:flex-row flex-col">
             <button
-              onClick={() => window.open("https://icomama.com/EVR")}
               className="rounded-xl bg-0b lg:w-36 text-white lg:px-0 px-5 text-sm h-12"
             >
               Buy $EVR

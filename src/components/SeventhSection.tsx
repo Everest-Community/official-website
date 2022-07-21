@@ -1,76 +1,94 @@
-import React from 'react'
-import Algo from '../assets/images/algorandalgo.png'
-import Gecko from '../assets/images/Smart.png'
-import Market from '../assets/images/coinmarketcap.png'
-import Transcend from '../assets/images/Transcend.png'
-import Pay from '../assets/images/pay.png'
-import BoundlesspayLogo from '../assets/images/BoundlesspayLogo.png'
-import ILlogo from '../assets/images/ILlogo.png'
-import sibon from '../assets/images/sibon.png'
-import Thresh0ldLogo from '../assets/images/Thresh0ldLogo.png' 
-// import Reddit from '../assets/images/Reddit-logo.jpg'
+import React from "react";
+import Algo from "../assets/images/algorandalgo.png";
+import Gecko from "../assets/images/Smart.png";
+import Market from "../assets/images/coinmarketcap.png";
+import Transcend from "../assets/images/Transcend.png";
+import Pay from "../assets/images/pay.png";
+import BoundlesspayLogo from "../assets/images/BoundlesspayLogo.png";
+
+import sibon from "../assets/images/sibon.png";
+import Thresh0ldLogo from "../assets/images/Thresh0ldLogo.png";
+import algoExplorer from "../assets/images/algoExplorer.png";
+import cars45 from "../assets/images/cars45.png";
+import cryptoBootcamp from "../assets/images/cryptoBootcamp.png";
+import infusionLawyers from "../assets/images/infusionLawyers.png";
+import tinyman from "../assets/images/tinyman.png";
 
 export default function SeventhSection() {
-    return (
-        <div className='w-full px-10 py-20 flex flex-col justify-center items-center' >
-            <div className=' flex flex-col lg:flex-row justify-center items-center'  >
-                <div className='flex lg:flex-row flex-col items-center' >
-                    <div className=' lg:w-auto w-full flex items-center' >
-                        <div className='flex lg:w-auto p-4 lg:p-0 lg:hidden items-center lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6 mr-4 lg:mr-0' >
-                            <img src={Pay} alt='Pay' /> 
-                        </div> 
-                        <div className='lg:flex hidden lg:w-auto p-4 lg:p-0 items-center lg:border-0 border border-[#171717]  lg:mx-4 my-2 lg:my-6 ml-4 lg:ml-0' >
-                            <img src={Algo} alt='Algo' />
-                            <p className='font-CircularStd-Regular text-white ml-2 text-xl' >Algorand</p>
-                        </div>
-                        <div className='flex lg:w-auto p-4 lg:p-0 items-center lg:border-0 border border-[#171717]  lg:mx-4 my-2 lg:my-6' >
-                            <img src={Gecko} alt='gecko' /> 
-                        </div>
-                    </div>
-                    <div className='flex lg:hidden lg:w-auto w-full p-4 lg:p-0  items-center lg:border-0 border border-[#171717]  lg:mx-4 my-2 lg:my-6' >
-                        <img src={Algo} alt='Algo' className='ml-auto lg:ml-0' />
-                            <p className='font-CircularStd-Regular mr-auto lg:mr-0 text-white ml-2 text-xl' >Algorand</p>
-                        </div>
-                    <div className='flex items-center lg:w-auto w-full p-4 lg:p-0 lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6' >
-                        <img src={Market} alt='Market' className='mx-auto lg:mx-0' /> 
-                    </div>
-                </div>
-                <div className='w-full lg:w-auto flex lg:flex-row flex-col items-center  ' >
-                    <div className='flex items-center lg:w-auto w-full p-1 lg:p-0 lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6' >
-                        <img src={Transcend} alt='Telegraph' className='mx-auto lg:mx-0' /> 
-                    </div>
-                    <div className='lg:flex hidden items-center  lg:mx-4 my-2 lg:my-6' >
-                        <img src={Pay} alt='Pay' /> 
-                    </div> 
-                    {/* <div className='flex items-center lg:mx-4 my-6' >
-                        <img src={Reddit} className='w-48 px-4 bg-white' alt='Telegraph' /> 
-                    </div> */}
-                </div>
-            </div>
-            <div className=' flex flex-col lg:flex-row  justify-center items-center'  >
-                <div className='flex lg:flex-row flex-col items-center' >
-                    <div className=' lg:w-auto w-full flex lg:flex-row flex-col items-center' >
-                        <div className='flex lg:w-auto p-4 lg:p-0 lg:hidden items-center lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6 mr-4 lg:mr-0' >
-                            <img src={BoundlesspayLogo} alt='Pay' /> 
-                        </div> 
-                        <div className='lg:flex hidden lg:w-auto p-4 lg:p-0 items-center lg:border-0 border border-[#171717]  lg:mx-4 my-2 lg:my-6 ml-4 lg:ml-0' >
-                            <img src={BoundlesspayLogo} className='w-36' alt='BoundlesspayLogo' />
-                            {/* <p className='font-CircularStd-Regular text-white ml-2 text-xl' >Algorand</p> */}
-                        </div>
-                        <div className='flex w-full justify-center lg:w-auto p-4 lg:p-0 items-center lg:border-0 border border-[#171717]  lg:mx-4 my-2 lg:my-6' >
-                            <img src={ILlogo}  className='lg:w-36' alt='ILlogo' /> 
-                        </div>
-                    </div> 
-                    <div className='flex items-center lg:w-auto w-full p-4 lg:p-0 lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6' >
-                        <img src={sibon} alt='Market' className='mx-auto w-36 lg:mx-0' /> 
-                    </div>
-                </div>
-                <div className='w-full lg:w-auto flex lg:flex-row flex-col items-center  ' >
-                    <div className='flex items-center lg:w-auto lg:py-1 py-4  w-full p-1 lg:p-0 lg:border-0 border border-[#171717] lg:mx-4 my-2 lg:my-6' >
-                        <img src={Thresh0ldLogo} alt='Telegraph' className='mx-auto lg:w-36 lg:mx-0' /> 
-                    </div> 
-                </div>
-            </div>
+  return (
+    <div className="w-full py-20 flex flex-col justify-center items-center">
+      <div className="flex flex-wrap flex-row justify-center items-center">
+        <div className="flex w-2/5 md:w-3/12 lg:w-auto p-4 mx-4 my-2 lg:my-6">
+          <img src={Pay} alt="Pay" />
         </div>
-    )
+        <div className="flex w-2/5 md:w-3/12 lg:w-auto p-4 lg:p-0 items-center mx-4 my-2 lg:my-6">
+          <img src={Algo} alt="Algo" />
+          <p className="font-CircularStd-Regular text-white ml-2 text-md">
+            Algorand
+          </p>
+        </div>
+        <div className="flex w-2/5 md:w-3/12 lg:w-auto p-4 lg:p-0 items-center mx-4 my-2 lg:my-6">
+          <img src={Gecko} alt="gecko" />
+        </div>
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-4 lg:p-0 mx-4 my-2 lg:my-6">
+          <img src={Market} alt="Market" className="mx-auto lg:mx-0" />
+        </div>
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img src={Transcend} alt="Telegraph" className="mx-auto lg:mx-0" />
+        </div>
+      </div>
+      <div className="flex flex-wrap flex-row justify-center items-center">
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img src={BoundlesspayLogo} className="w-36" alt="BoundlesspayLogo" />
+        </div>
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img src={sibon} alt="Market" className="mx-auto w-36 lg:mx-0" />
+        </div>
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img
+            src={Thresh0ldLogo}
+            alt="Telegraph"
+            className="mx-auto lg:w-36 lg:mx-0"
+          />
+        </div>
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img
+            src={algoExplorer}
+            alt="Telegraph"
+            className="mx-auto lg:w-36 lg:mx-0"
+          />
+        </div>
+      </div>
+      <div className="flex flex-wrap flex-row justify-center items-center">
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img
+            src={cars45}
+            alt="Telegraph"
+            className="mx-auto lg:w-36 lg:mx-0"
+          />
+        </div>
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img
+            src={cryptoBootcamp}
+            alt="Telegraph"
+            className="mx-auto lg:w-36 lg:mx-0"
+          />
+        </div>
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img
+            src={infusionLawyers}
+            alt="Telegraph"
+            className="mx-auto lg:w-36 lg:mx-0"
+          />
+        </div>
+        <div className="flex w-2/5 md:w-3/12 items-center lg:w-auto p-1 lg:p-0 mx-4 my-2 lg:my-6">
+          <img
+            src={tinyman}
+            alt="Telegraph"
+            className="mx-auto lg:w-36 lg:mx-0"
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
